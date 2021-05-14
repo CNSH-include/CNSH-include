@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css'); 
+
+body {
+	font-family: 'Nanum Myeongjo';
+	font-family: 'Nanum Myeongjo',arial,sans-serif;
+	scroll-behavior: smooth;
+}
+html {
+	font-family: 'Nanum Myeongjo';
+	font-family: 'Nanum Myeongjo',arial,sans-serif;
+	scroll-behavior: smooth;
+	background: #F1F1F1;
+}
+.bg-primary {
+	background: linear-gradient(-135deg, #F8F9FA, #F8F9FA) fixed;
+}
+.main_text {
+	font-size: 40px;
+	text-align: left;
+	color: #000000;
+}
+l { 
+	background: linear-gradient(to top, #D8D8D8 50%, transparent 50%); 
+}
+h1 {
+	font-family: 'Nanum Gothic';
+}
+img {
+	max-width: 100%; 
+	height: auto;
+}
+.sub_text {
+	font-size: 30px;
+	text-align: left;
+	color: #000000;
+}
+.navbar {
+	background-color: #D8D8D8;
+}
+body {
+	background: #F1F1F1;
+}
+::-moz-selection {
+	color: #000000;
+	background: #D8D8D8;
+}
+::selection {
+	color: #000000;
+	background: #D8D8D8;
+}
+header {
+	padding: 154px 0 100px;
+}
+@media (min-width: 992px) {
+	header {
+		padding: 156px 0 100px;
+    }
+}
+a {
+  color:#000000;
+}
+a:hover {
+  color:#007bb6;
+  text-decoration:none;
+}
+.bg-info { 
+	background: linear-gradient(-135deg, #FFFFFF, #FFFFFF) fixed; 
+}
+/*다크테마 대응*/
+[data-theme="dark"] {
+	background-color: #111 !important;
+	color: #eee;
+}
+[data-theme="dark"] .bg-light {
+	background-color: #333 !important;
+}
+[data-theme="dark"] .bg-white {
+	background-color: #000 !important;
+}
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}  
+.site-footer {
+	background-color:#F1F1F1;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+}
+.site-footer hr {
+	border-top-color:#bbbbbb;
+	opacity:0.5
+}
+.site-footer hr.small {
+	margin:20px 0
+}
+.footer-links {
+	padding-left:0;
+	list-style:none
+}
+.footer-links li {
+	display:block
+}
+.footer-links a {
+	color:#000000
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+	color:#000000;
+	text-decoration:none;
+}
+.footer-links.inline li {
+	display:inline-block
+}
+.site-footer .social-icons {
+	text-align:right
+}
+.site-footer .social-icons a {
+	width:40px;
+	height:40px;
+	line-height:40px;
+	margin-left:6px;
+	margin-right:0;
+	border-radius:100%;
+	background-color:#000000
+}
+@media (max-width:991px) {
+	.site-footer [class^=col-] 	{
+		margin-bottom:30px
+	}
+}
+@media (max-width:767px) {
+	.site-footer 	{
+		padding-bottom:0
+	}
+	.site-footer .copyright-text,.site-footer .social-icons 	{
+		text-align:center
+	}
+}
+a.linkedin:hover {
+	background-color:#000000
+}
+a.dribbble:hover {
+	background-color:#000000
+}
+@media (max-width:767px) {
+	.social-icons li.title {
+		display:block;
+		margin-right:0;
+		font-weight:600
+	}
+}
+left {
+	text-align: left;
+}
+right {
+	text-align: right;
+}
+center {
+	text-align: center;
+}
+div {
+	word-wrap: break-word;
+}
+none {
+	display: none;
+}
