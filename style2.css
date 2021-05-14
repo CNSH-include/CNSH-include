@@ -25,10 +25,6 @@ l {
 h1 {
 	font-family: 'Nanum Gothic';
 }
-img {
-	max-width: 100%; 
-	height: auto;
-}
 .sub_text {
 	font-size: 30px;
 	text-align: left;
